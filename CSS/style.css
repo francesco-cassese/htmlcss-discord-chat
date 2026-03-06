@@ -1,6 +1,6 @@
 /*
   =======================================
-  CSS RESET
+  CSS RESET & Restrizioni
   =======================================  
 */
 
@@ -10,13 +10,33 @@
     box-sizing: border-boxs;
 }
 
-/*
-  =======================================
-  UTILITIES
-  =======================================
-*/
-
 body {
     width: 512px;
     margin: 0 auto;
+}
+
+
+/*
+  =======================================
+  ROOT & UTILITIES
+  =======================================
+*/
+
+:root {
+    --primary-color: #1c1d22;
+    --secondary-color: #141318;
+    --tertiary-color: #141318;
+    --offline-stats: #f94349;
+    --do-not-disturb-stats: #f4a71b;
+    --online-stats: #39a65d;
+    --txt-color-chat: #7f818c;
+    --txt-color-chat-HV: #fafff5;
+}
+
+.txt-white {
+    color: #ffffff;
+}
+
+.d-flex {
+    display: flex;
 }
