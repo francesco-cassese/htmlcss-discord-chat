@@ -49,8 +49,18 @@ body {
     flex-direction: column;
 }
 
+.bord-radio50 {
+    border-radius: 50%;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
 /*
   ========================================
-  HEADER
+  SIDEBAR
   ========================================
 */
+
+.
