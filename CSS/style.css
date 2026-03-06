@@ -37,6 +37,20 @@ body {
     color: #ffffff;
 }
 
+.d-block {
+    display: block;
+}
+
 .d-flex {
     display: flex;
 }
+
+.f-column {
+    flex-direction: column;
+}
+
+/*
+  ========================================
+  HEADER
+  ========================================
+*/
