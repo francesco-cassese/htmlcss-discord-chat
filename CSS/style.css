@@ -202,18 +202,12 @@ body {
 }
 
 .container-nav-list {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .nav-list {
-    flex-basis: 0;
-    justify-content: space-around;
-}
-
-.nav-list li {
-    flex-grow: 1;
-    flex-shrink: 1;
+    justify-content: space-between;
 }
 
 .bi {
