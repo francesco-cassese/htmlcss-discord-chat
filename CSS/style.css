@@ -33,6 +33,7 @@ body {
     --txt-color-chat: #7f818c;
     --txt-color-chat-HV: #fafff5;
     --bg-color-chat-HV: #48484e;
+    --bg-footer: #2d2d35;
 }
 
 .txt-white {
@@ -86,7 +87,9 @@ body {
     flex-shrink: 0;
 }
 
-.sidebar ul {
+.sidebar-list,
+.chat-list,
+.nav-list {
     padding-left: 0;
 }
 
@@ -155,11 +158,8 @@ body {
     background-color: var(--bg-color-chat-HV);
 }
 
-.chat-list ul {
-    padding-left: 0;
-}
-
-.chat-list a {
+.chat-list a,
+.nav-list a {
     text-decoration: none;
 }
 
@@ -170,4 +170,23 @@ body {
 .container-info {
     margin-left: 5px;
     line-height: 0.5px;
+}
+
+/*
+  ======================================
+   FOOTER
+  ======================================
+*/
+
+.navbar img {
+    width: 30px;
+}
+
+.navbar {
+    background-color: var(--bg-footer);
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: #ffffff;
 }
