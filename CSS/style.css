@@ -130,6 +130,7 @@ body {
     margin: 0 5px;
 }
 
+/* Main */
 
 .container-main {
     background-color: var(--primary-color);
@@ -139,4 +140,8 @@ body {
 
 .container-list img {
     height: 30px;
+}
+
+.users {
+    justify-content: space-between;
 }
