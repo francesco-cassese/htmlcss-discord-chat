@@ -86,3 +86,7 @@ body {
 .sidebar ul {
     padding-left: 0;
 }
+
+.sidebar li {
+    margin: 10px 0;
+}
