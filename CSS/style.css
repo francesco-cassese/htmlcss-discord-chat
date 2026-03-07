@@ -145,3 +145,7 @@ body {
 .users {
     justify-content: space-between;
 }
+
+.chat-list a {
+    text-decoration: none;
+}
