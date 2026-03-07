@@ -144,6 +144,12 @@ body {
 
 .users {
     justify-content: space-between;
+    padding: 10px 0;
+    color: var(--txt-color-chat);
+}
+
+.chat-active {
+    color: #ffffff;
 }
 
 .chat-list ul {
