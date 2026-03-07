@@ -139,7 +139,7 @@ body {
 }
 
 .container-list img {
-    height: 30px;
+    height: 40px;
 }
 
 .users {
@@ -156,4 +156,9 @@ body {
 
 .container-list {
     padding: 10px 25px;
+}
+
+.container-info {
+    margin-left: 5px;
+    line-height: 0.5px;
 }
