@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     width: 512px;
     margin: 0 auto;
@@ -25,7 +26,7 @@ body {
 :root {
     --primary-color: #1c1d22;
     --secondary-color: #141318;
-    --tertiary-color: #26262e;
+    --tertiary-color: #373a43;
     --offline-stats: #f94349;
     --do-not-disturb-stats: #f4a71b;
     --online-stats: #39a65d;
@@ -100,21 +101,35 @@ body {
 
 /* header */
 
+.chat-title {
+    margin: 10px 20px;
+}
+
 .btn-search,
 .btn-add-friends {
     background-color: var(--tertiary-color);
     border: none;
-    padding: 10px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.btn-search {
+    width: 35px;
+    aspect-ratio: 1;
 }
 
 .btn-add-friends {
     border-radius: 20px;
+    max-width: 80%;
+    padding: 5px 0;
+    flex-grow: 2;
 }
 
 
 .container-main {
     background-color: var(--primary-color);
     height: 100vh;
+    width: 100%;
 }
 
 .container-list img {
