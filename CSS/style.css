@@ -125,6 +125,10 @@ body {
     flex-grow: 2;
 }
 
+.btn-add-friends p {
+    display: inline;
+}
+
 
 .container-main {
     background-color: var(--primary-color);
