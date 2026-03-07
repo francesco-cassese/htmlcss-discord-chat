@@ -25,7 +25,7 @@ body {
 :root {
     --primary-color: #1c1d22;
     --secondary-color: #141318;
-    --tertiary-color: #141318;
+    --tertiary-color: #26262e;
     --offline-stats: #f94349;
     --do-not-disturb-stats: #f4a71b;
     --online-stats: #39a65d;
@@ -66,4 +66,8 @@ body {
 .sidebar img {
     width: 50px;
     aspect-ratio: 1;
+}
+
+.sidebar {
+    background-color: var(--secondary-color);
 }
