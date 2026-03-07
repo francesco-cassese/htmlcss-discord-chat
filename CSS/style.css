@@ -184,6 +184,7 @@ body {
 
 .navbar {
     background-color: var(--bg-footer);
+    max-height: 70px;
 }
 
 .navbar a {
@@ -194,9 +195,19 @@ body {
     align-items: center;
 }
 
+.container-nav-list {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .nav-list {
-    width: 80%;
+    flex-basis: 0;
     justify-content: space-around;
+}
+
+.nav-list li {
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .bi {
