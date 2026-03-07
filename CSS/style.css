@@ -62,13 +62,25 @@ body {
 
 /*
    =======================================
-   CONTAINER WRAP
+   CONTAINER WRAP & REGOLE COMUNI
    =======================================
 */
 
 .container-wrapper {
     height: 100vh;
 }
+
+.sidebar-list,
+.chat-list,
+.nav-list {
+    padding-left: 0;
+}
+
+.chat-list p,
+.nav-list p {
+    font-size: 12px;
+}
+
 
 /*
   ========================================
@@ -85,12 +97,6 @@ body {
     background-color: var(--sidebar-server);
     padding: 10px;
     flex-shrink: 0;
-}
-
-.sidebar-list,
-.chat-list,
-.nav-list {
-    padding-left: 0;
 }
 
 .sidebar li {
