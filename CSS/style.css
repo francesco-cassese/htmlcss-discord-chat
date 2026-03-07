@@ -34,8 +34,10 @@ body {
     --txt-color-chat-HV: #fafff5;
     --bg-color-chat-HV: #48484e;
     --bg-footer: #474849;
-    --bg-button-HV: #48484e;
-    --bg-button: #494c55;
+    --bg-button-HV: #4e5058;
+    --bg-button: #383a40;
+    --bg-link-footer: #b5bac1;
+    --bg-link-footer-HV: #fff;
 }
 
 .txt-white {
@@ -231,11 +233,15 @@ body {
 }
 
 .navbar a {
-    color: #ffffff;
+    color: var(--bg-link-footer);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.navbar a:hover {
+    color: var(--bg-link-footer-HV);
 }
 
 .container-nav-list {
