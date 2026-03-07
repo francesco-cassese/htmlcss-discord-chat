@@ -102,15 +102,15 @@ body {
 /* header */
 
 .chat-title {
-    margin: 10px 20px;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
 .btn-search,
 .btn-add-friends {
     background-color: var(--tertiary-color);
     border: none;
-    margin-left: 15px;
-    font-weight: bold;
+    margin-left: 20px;
 }
 
 .btn-search {
@@ -127,6 +127,7 @@ body {
 
 .btn-add-friends p {
     display: inline;
+    margin: 0 5px;
 }
 
 
