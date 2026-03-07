@@ -58,6 +58,16 @@ body {
 }
 
 /*
+   =======================================
+   CONTAINER WRAP
+   =======================================
+*/
+
+.container-wrapper {
+    height: 100vh;
+}
+
+/*
   ========================================
   SIDEBAR
   ========================================
@@ -68,6 +78,10 @@ body {
     aspect-ratio: 1;
 }
 
-.sidebar {
+.container-sidebar {
     background-color: var(--secondary-color);
+}
+
+.sidebar-list {
+    margin: 0 20px;
 }
