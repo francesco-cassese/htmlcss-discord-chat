@@ -34,6 +34,8 @@ body {
     --txt-color-chat-HV: #fafff5;
     --bg-color-chat-HV: #48484e;
     --bg-footer: #474849;
+    --bg-button-HV: #48484e;
+    --bg-button: #494c55;
 }
 
 .txt-white {
@@ -142,7 +144,7 @@ body {
 
 .btn-search,
 .btn-add-friends {
-    background-color: var(--header-button);
+    background-color: var(--bg-button);
     border: none;
     margin-left: 20px;
 }
@@ -162,6 +164,11 @@ body {
 .btn-add-friends p {
     display: inline;
     margin: 0 5px;
+}
+
+.btn-search:hover,
+.btn-add-friends:hover {
+    background-color: var(--bg-button-HV);
 }
 
 /* Main */
