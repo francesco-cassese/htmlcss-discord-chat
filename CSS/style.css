@@ -190,6 +190,11 @@ body {
     border-radius: 10px;
 }
 
+.users:hover {
+    background-color: var(--bg-color-chat-HV);
+    color: var(--txt-color-chat-HV);
+}
+
 .chat-active {
     color: var(--txt-color-chat-HV);
     background-color: var(--bg-color-chat-HV);
