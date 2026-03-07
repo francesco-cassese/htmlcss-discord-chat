@@ -101,3 +101,7 @@ body {
     background-color: var(--primary-color);
     height: 100vh;
 }
+
+.container-list img {
+    height: 30px;
+}
