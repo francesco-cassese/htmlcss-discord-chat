@@ -33,7 +33,7 @@ body {
     --txt-color-chat: #7f818c;
     --txt-color-chat-HV: #fafff5;
     --bg-color-chat-HV: #48484e;
-    --bg-footer: #2d2d35;
+    --bg-footer: #474849;
 }
 
 .txt-white {
@@ -184,9 +184,21 @@ body {
 
 .navbar {
     background-color: var(--bg-footer);
-    justify-content: space-between;
 }
 
 .navbar a {
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    width: 80%;
+    justify-content: space-around;
+}
+
+.bi {
+    font-size: 20px;
 }
