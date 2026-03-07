@@ -146,6 +146,14 @@ body {
     justify-content: space-between;
 }
 
+.chat-list ul {
+    padding-left: 0;
+}
+
 .chat-list a {
     text-decoration: none;
+}
+
+.container-list {
+    padding: 10px 25px;
 }
