@@ -188,6 +188,7 @@ body {
     padding: 10px 8px;
     color: var(--txt-color-chat);
     border-radius: 10px;
+    margin: 5px;
 }
 
 .users:hover {
