@@ -60,6 +60,10 @@ body {
     list-style-type: none;
 }
 
+.p-rel {
+    position: relative;
+}
+
 /*
    =======================================
    CONTAINER WRAP & REGOLE COMUNI
@@ -91,6 +95,16 @@ body {
 .sidebar img {
     width: 50px;
     aspect-ratio: 1;
+}
+
+.server-icon::before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    border: 3px solid var(--txt-color-chat-HV);
+    left: -11px;
+    bottom: 5px;
+    border-radius: 20px;
 }
 
 .container-sidebar {
