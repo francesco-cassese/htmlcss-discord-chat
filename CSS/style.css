@@ -24,9 +24,9 @@ body {
 */
 
 :root {
-    --primary-color: #1c1d22;
-    --secondary-color: #141318;
-    --tertiary-color: #373a43;
+    --sidebar-server: #1e1f22;
+    --chat-section: #2b2d31;
+    --header-button: #373a43;
     --offline-stats: #f94349;
     --do-not-disturb-stats: #f4a71b;
     --online-stats: #39a65d;
@@ -80,7 +80,7 @@ body {
 }
 
 .container-sidebar {
-    background-color: var(--secondary-color);
+    background-color: var(--sidebar-server);
     padding: 10px;
     flex-shrink: 0;
 }
@@ -108,7 +108,7 @@ body {
 
 .btn-search,
 .btn-add-friends {
-    background-color: var(--tertiary-color);
+    background-color: var(--header-button);
     border: none;
     margin-left: 20px;
 }
@@ -133,7 +133,7 @@ body {
 /* Main */
 
 .container-main {
-    background-color: var(--primary-color);
+    background-color: var(--chat-section);
     height: 100vh;
     width: 100%;
 }
@@ -149,7 +149,7 @@ body {
 }
 
 .chat-active {
-    color: #ffffff;
+    color: var(--txt-color-chat-HV);
 }
 
 .chat-list ul {
