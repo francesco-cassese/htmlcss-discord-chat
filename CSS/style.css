@@ -97,7 +97,7 @@ body {
     aspect-ratio: 1;
 }
 
-.server-icon::before {
+.server-active::before {
     content: "";
     position: absolute;
     height: 40px;
