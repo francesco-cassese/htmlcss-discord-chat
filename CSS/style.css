@@ -90,3 +90,14 @@ body {
 .sidebar li {
     margin: 10px 0;
 }
+
+/*
+    =========================================
+    LISTA CHAT
+    =========================================
+*/
+
+.container-main {
+    background-color: var(--primary-color);
+    height: 100vh;
+}
