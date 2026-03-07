@@ -32,6 +32,7 @@ body {
     --online-stats: #39a65d;
     --txt-color-chat: #7f818c;
     --txt-color-chat-HV: #fafff5;
+    --bg-color-chat-HV: #48484e;
 }
 
 .txt-white {
@@ -144,12 +145,14 @@ body {
 
 .users {
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 10px 8px;
     color: var(--txt-color-chat);
+    border-radius: 10px;
 }
 
 .chat-active {
     color: var(--txt-color-chat-HV);
+    background-color: var(--bg-color-chat-HV);
 }
 
 .chat-list ul {
@@ -161,7 +164,7 @@ body {
 }
 
 .container-list {
-    padding: 10px 25px;
+    padding: 10px;
 }
 
 .container-info {
