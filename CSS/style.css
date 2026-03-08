@@ -113,7 +113,7 @@ body {
 }
 
 .server-icon {
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
 }
 
 .server-not-active:hover img {
