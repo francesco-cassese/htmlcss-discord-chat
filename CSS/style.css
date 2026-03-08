@@ -329,7 +329,14 @@ body {
 }
 
 .nav-list {
-    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-list li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .bi {
