@@ -161,13 +161,13 @@ body {
 .btn-add-friends {
     background-color: var(--bg-button-header);
     border: none;
-    margin-left: 20px;
 }
 
 .btn-search {
-    width: 35px;
+    width: 40px;
     aspect-ratio: 1;
     transition: all 0.3s ease;
+    margin-left: 20px;
 }
 
 .btn-add-friends {
@@ -176,6 +176,7 @@ body {
     padding: 5px 0;
     flex-grow: 2;
     transition: all 0.3s ease;
+    margin-left: 15px;
 }
 
 .btn-add-friends .bi {
