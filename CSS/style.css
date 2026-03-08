@@ -99,7 +99,11 @@ body {
     border-radius: 20px;
 }
 
-.server-icon:hover::before {
+.server-icon {
+    transition: all 0.3 ease;
+}
+
+.server-not-active:hover::before {
     content: "";
     position: absolute;
     height: 25px;
