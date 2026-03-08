@@ -185,6 +185,17 @@ body {
     height: 40px;
 }
 
+.container-img-users::before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    aspect-ratio: 1;
+    background-color: #fff;
+    border-radius: 50%;
+    bottom: 6px;
+    left: 30px;
+}
+
 .users {
     justify-content: space-between;
     padding: 10px 8px;
