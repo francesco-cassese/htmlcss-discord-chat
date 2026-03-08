@@ -146,6 +146,7 @@ body {
 .btn-search {
     width: 35px;
     aspect-ratio: 1;
+    transition: all 0.3s ease;
 }
 
 .btn-add-friends {
@@ -153,6 +154,7 @@ body {
     max-width: 80%;
     padding: 5px 0;
     flex-grow: 2;
+    transition: all 0.3s ease;
 }
 
 .btn-add-friends p {
@@ -264,6 +266,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease;
 }
 
 .navbar a:hover {
