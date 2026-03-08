@@ -247,6 +247,12 @@ body {
     overflow-y: auto;
 }
 
+.btn-new-chat {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 .container-info {
     margin-left: 5px;
     line-height: 0.5px;
