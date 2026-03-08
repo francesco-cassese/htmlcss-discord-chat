@@ -178,6 +178,10 @@ body {
     transition: all 0.3s ease;
 }
 
+.btn-add-friends .bi {
+    padding-right: 5px;
+}
+
 .btn-search:hover,
 .btn-add-friends:hover {
     background-color: var(--bg-button-header-HV);
@@ -232,6 +236,10 @@ body {
     color: var(--txt-color-chat-HV);
 }
 
+.name-users {
+    font-size: 15px;
+}
+
 .chat-active {
     color: var(--txt-color-chat-HV);
     background-color: var(--bg-color-chat-HV);
@@ -273,6 +281,7 @@ body {
 
 .btn-new-chat .bi {
     font-size: 14px;
+    padding-left: 5px;
 }
 
 .btn-new-chat:hover {
