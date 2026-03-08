@@ -103,6 +103,10 @@ body {
     transition: all 0.3 ease;
 }
 
+.server-not-active:hover img {
+    transform: scale(1.1);
+}
+
 .server-not-active:hover::before {
     content: "";
     position: absolute;
