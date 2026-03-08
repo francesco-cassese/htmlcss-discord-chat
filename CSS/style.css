@@ -70,25 +70,13 @@ body {
 
 /*
    =======================================
-   CONTAINER WRAP & REGOLE COMUNI
+   CONTAINER WRAP
    =======================================
 */
 
 .container-wrapper {
     height: 100vh;
 }
-
-.sidebar-list,
-.chat-list,
-.nav-list {
-    padding-left: 0;
-}
-
-.chat-list p,
-.nav-list p {
-    font-size: 12px;
-}
-
 
 /*
   ========================================
@@ -266,4 +254,21 @@ body {
 
 .bi {
     font-size: 20px;
+}
+
+/*
+    ===================================
+    REGOLE COMUNI
+    ===================================
+*/
+
+.sidebar-list,
+.chat-list,
+.nav-list {
+    padding-left: 0;
+}
+
+.chat-list p,
+.nav-list p {
+    font-size: 12px;
 }
