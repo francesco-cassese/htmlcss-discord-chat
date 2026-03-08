@@ -178,11 +178,6 @@ body {
     transition: all 0.3s ease;
 }
 
-.btn-add-friends p {
-    display: inline;
-    margin: 0 5px;
-}
-
 .btn-search:hover,
 .btn-add-friends:hover {
     background-color: var(--bg-button-header-HV);
@@ -283,12 +278,6 @@ body {
 .btn-new-chat:hover {
     background-color: var(--bg-btn-new-chat-HV);
     transform: scale(1.1);
-}
-
-.btn-new-chat p {
-    display: inline;
-    margin-bottom: 0;
-    padding-right: 5px;
 }
 
 .container-info {
