@@ -38,6 +38,9 @@ body {
     --bg-button: #383a40;
     --bg-link-footer: #b5bac1;
     --bg-link-footer-HV: #fff;
+    --bg-btn-new-chat: #383a40;
+    --bg-btn-new-chat-HV: #4e5058;
+    --txt-color-btn-new-chat: #fff;
 }
 
 .txt-white {
@@ -255,6 +258,16 @@ body {
     border-radius: 20px;
     justify-content: center;
     align-items: center;
+    border: none;
+    background-color: var(--bg-btn-new-chat);
+    color: var(--txt-color-btn-new-chat);
+    font-weight: bold;
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+
+.btn-new-chat:hover {
+    background-color: var(--bg-btn-new-chat-HV);
 }
 
 .btn-new-chat p {
