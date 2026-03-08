@@ -249,8 +249,18 @@ body {
 
 .btn-new-chat {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 85px;
+    right: 30px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-new-chat p {
+    display: inline;
+    margin-bottom: 0;
+    padding-right: 5px;
 }
 
 .container-info {
