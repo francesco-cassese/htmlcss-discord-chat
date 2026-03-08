@@ -27,8 +27,8 @@ body {
     --sidebar-server: #1e1f22;
     --chat-section: #2b2d31;
     --header-button: #373a43;
-    --offline-stats: #f94349;
-    --do-not-disturb-stats: #f4a71b;
+    --do-not-disturb-stats: #f94349;
+    --afk-stats: #f4a71b;
     --online-stats: #39a65d;
     --txt-color-chat: #7f818c;
     --txt-color-chat-HV: #fafff5;
@@ -182,6 +182,18 @@ body {
     border-radius: 50%;
     bottom: 6px;
     left: 30px;
+}
+
+.status-online {
+    background-color: var(--online-stats);
+}
+
+.status-afk {
+    background-color: var(--afk-stats);
+}
+
+.status-do-not-disturb {
+    background-color: var(--do-not-disturb-stats);
 }
 
 .users {
