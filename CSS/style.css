@@ -24,23 +24,33 @@ body {
 */
 
 :root {
+    /* --- SEZIONI PRINCIPALI ---*/
     --sidebar-server: #1e1f22;
     --chat-section: #2b2d31;
-    --header-button: #373a43;
-    --do-not-disturb-stats: #f94349;
-    --afk-stats: #f4a71b;
-    --online-stats: #39a65d;
+    --bg-footer: #474849;
+
+    /* --- SEZIONE CHAT --- */
     --txt-color-chat: #7f818c;
     --txt-color-chat-HV: #fafff5;
     --bg-color-chat-HV: #48484e;
-    --bg-footer: #474849;
-    --bg-button-HV: #4e5058;
-    --bg-button: #383a40;
-    --bg-link-footer: #b5bac1;
-    --bg-link-footer-HV: #fff;
+
+    /* --- BOTTONI HEADER --- */
+    --bg-button-header-HV: #4e5058;
+    --bg-button-header: #383a40;
+
+    /* --- BOTTONE NEW CHAT --- */
     --bg-btn-new-chat: #383a40;
     --bg-btn-new-chat-HV: #4e5058;
     --txt-color-btn-new-chat: #fff;
+
+    /* --- STATUS UTENTI --- */
+    --do-not-disturb-stats: #f94349;
+    --afk-stats: #f4a71b;
+    --online-stats: #39a65d;
+
+    /* --- SEZIONE LINK NEL FOOTER --- */
+    --bg-link-footer: #b5bac1;
+    --bg-link-footer-HV: #fff;
 }
 
 .txt-white {
@@ -149,7 +159,7 @@ body {
 
 .btn-search,
 .btn-add-friends {
-    background-color: var(--bg-button);
+    background-color: var(--bg-button-header);
     border: none;
     margin-left: 20px;
 }
@@ -175,7 +185,7 @@ body {
 
 .btn-search:hover,
 .btn-add-friends:hover {
-    background-color: var(--bg-button-HV);
+    background-color: var(--bg-button-header-HV);
 }
 
 /* Main */
