@@ -184,15 +184,15 @@ body {
     left: 30px;
 }
 
-.status-online {
+.status-online::before {
     background-color: var(--online-stats);
 }
 
-.status-afk {
+.status-afk::before {
     background-color: var(--afk-stats);
 }
 
-.status-do-not-disturb {
+.status-do-not-disturb::before {
     background-color: var(--do-not-disturb-stats);
 }
 
