@@ -19,4 +19,15 @@ Testare le conoscenze su:
 
 ---
 
+### Struttura delle cartelle
+
+```text
+htmlcss-discord-chat/
+├── css/
+│   └── style.css       # Foglio di stile principale
+├── img/                # Asset grafici (logo, icone server e avatar)
+├── index.html          # Markup strutturale della pagina
+└── README.md
+```
+
 *Esercizio Boolean - Corso Full Stack Web Developer*
